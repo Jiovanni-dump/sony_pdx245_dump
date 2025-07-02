@@ -1,0 +1,24 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.system_dlkm.brand=Sony
+ro.product.system_dlkm.device=pdx245
+ro.product.system_dlkm.manufacturer=Sony
+ro.product.system_dlkm.model=Pdx245
+ro.product.system_dlkm.name=pdx245
+ro.product.model_for_attestation=
+ro.product.brand_for_attestation=
+ro.product.name_for_attestation=
+ro.system_dlkm.build.date=Fri May 16 19:32:52 JST 2025
+ro.system_dlkm.build.date.utc=1747391572
+ro.system_dlkm.build.fingerprint=Sony/pdx245/pdx245:14/UKQ1.231121.002/ASAHI-1.1.0-REL-250516-0946:user/release-keys
+ro.system_dlkm.build.id=UKQ1.231121.002
+ro.system_dlkm.build.tags=release-keys
+ro.system_dlkm.build.type=user
+ro.system_dlkm.build.version.incremental=ASAHI-1.1.0-REL-250516-0946
+ro.system_dlkm.build.version.release=14
+ro.system_dlkm.build.version.release_or_codename=14
+ro.system_dlkm.build.version.sdk=34
+# end of file
+
