@@ -1,0 +1,14 @@
+# sssi_64-user 15 AQ3A.240812.002 QSSI-15.1.0-REL-250613-1403 release-keys
+- manufacturer: sony
+- platform: pineapple
+- codename: pdx245
+- flavor: sssi_64-user
+- release: 15
+- id: 69.1.A.2.245
+- incremental: QSSI-15.1.0-REL-250613-1403
+- tags: release-keys
+- fingerprint: Sony/pdx245/pdx245:14/UKQ1.231121.002/ASAHI-1.1.0-REL-250613-1350:user/release-keys
+- is_ab: true
+- brand: Sony
+- branch: sssi_64-user-15-AQ3A.240812.002-QSSI-15.1.0-REL-250613-1403-release-keys
+- repo: sony_pdx245_dump
