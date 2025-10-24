@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright 2023 Sony Corporation.
+-->
+<Feature>
+    <Name>PerfAgent</Name>
+    <SysfsNodeAgent>
+        <Resources>
+            <Resource>drm_measured_fps, /sys/class/drm/sde-crtc-0/measured_fps, 1, 0</Resource>
+            <Resource>drm_fps_periodicity_ms, /sys/class/drm/sde-crtc-0/fps_periodicity_ms, 1, 1</Resource>
+            <Resource>thermistor_assign3_therm, assign3_therm, 1, 0</Resource>
+        </Resources>
+    </SysfsNodeAgent>
+    <MpctlAgent>
+        <PerfSets>
+            <PerfSet id="cpu_cluster0" resources="0x40804100"><!-- Silver -->
+                <PerfReq>460</PerfReq><!--  LowSVS_D1 -->
+                <PerfReq>556</PerfReq><!--  LowSVS -->
+                <PerfReq>902</PerfReq><!--  SVS -->
+                <PerfReq>1132</PerfReq><!-- SVS_L1 -->
+                <PerfReq>1344</PerfReq><!-- Nominal -->
+                <PerfReq>1574</PerfReq><!-- Nominal_L1 -->
+                <PerfReq>1804</PerfReq><!-- Turbo -->
+                <PerfReq>1920</PerfReq><!-- Turbo_L1 -->
+                <PerfReq>2035</PerfReq><!-- Turbo_L3 -->
+                <PerfReq>2265</PerfReq><!-- Boost -->
+            </PerfSet>
+            <PerfSet id="cpu_cluster1" resources="0x40804000"><!-- Gold(APC2) -->
+                <PerfReq>499</PerfReq><!--  LowSVS_D1 -->
+                <PerfReq>614</PerfReq><!--  LowSVS -->
+                <PerfReq>844</PerfReq><!--  SVS -->
+                <PerfReq>1190</PerfReq><!-- SVS_L1 -->
+                <PerfReq>1401</PerfReq><!-- Nominal -->
+                <PerfReq>1612</PerfReq><!-- Nominal_L1 -->
+                <PerfReq>1824</PerfReq><!-- Turbo -->
+                <PerfReq>2131</PerfReq><!-- Turbo_L1 -->
+                <PerfReq>2380</PerfReq><!-- Turbo_L3 -->
+                <PerfReq>2956</PerfReq><!-- Boost -->
+            </PerfSet>
+            <PerfSet id="cpu_cluster2" resources="0x40804300, 0x40804200"><!-- Titan(Gold)/Prime -->
+                <PerfReq>499, 480</PerfReq><!--   LowSVS_D1 -->
+                <PerfReq>614, 576</PerfReq><!--   LowSVS -->
+                <PerfReq>844, 902</PerfReq><!--   SVS -->
+                <PerfReq>1190, 1248</PerfReq><!-- SVS_L1 -->
+                <PerfReq>1401, 1478</PerfReq><!-- Nominal -->
+                <PerfReq>1612, 1708</PerfReq><!-- Nominal_L1 -->
+                <PerfReq>1824, 1939</PerfReq><!-- Turbo -->
+                <PerfReq>2131, 2246</PerfReq><!-- Turbo_L1 -->
+                <PerfReq>2380, 2630</PerfReq><!-- Turbo_L3 -->
+                <PerfReq>2956, 3052</PerfReq><!-- Boost -->
+            </PerfSet>
+        </PerfSets>
+        <MpctlRawResources>
+            <MpctlRawResource>GpuMinFreq,         0x4280C000</MpctlRawResource>
+            <MpctlRawResource>CpuSilverMaxFreq,   0x40804100</MpctlRawResource>
+            <MpctlRawResource>CpuGoldMaxFreq,     0x40804000</MpctlRawResource>
+            <MpctlRawResource>CpuTitanMaxFreq,    0x40804300</MpctlRawResource>
+            <MpctlRawResource>CpuPrimeMaxFreq,    0x40804200</MpctlRawResource>
+            <MpctlRawResource>CpuSetTopApp,       0x40C3C000</MpctlRawResource>
+            <MpctlRawResource>SchedBoost,         0x40C00000</MpctlRawResource>
+            <MpctlRawResource>SchedFmaxCapSilver, 0x43C1C100</MpctlRawResource>
+            <MpctlRawResource>SchedFmaxCapGold,   0x43C1C000</MpctlRawResource>
+            <MpctlRawResource>SchedFmaxCapTitan,  0x43C1C300</MpctlRawResource>
+            <MpctlRawResource>SchedFmaxCapPrime,  0x43C1C200</MpctlRawResource>
+        </MpctlRawResources>
+    </MpctlAgent>
+    <McoAgent>
+        <ConfigPath>/product/etc/perfagent/multicoreoptimizer/config.xml</ConfigPath>
+    </McoAgent>
+</Feature>

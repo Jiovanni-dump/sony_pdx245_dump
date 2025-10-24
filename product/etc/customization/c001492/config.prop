@@ -1,0 +1,8 @@
+########################customized property values ########################
+ro.com.google.acsa=true
+ro.com.google.clientidbase.am=android-tef-{country}
+ro.com.google.clientidbase.cr=android-sonymobile
+ro.com.google.clientidbase.ms=android-tef-{country}-rvc3
+ro.com.google.clientidbase.vs=android-tef-{country}-rvc3
+ro.facebook.partnerid=telefonica:63839462-3a60-4343-bade-8d7c65ccfa45
+#############################################################################

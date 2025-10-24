@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<customization id="c999994">
+   <!-- Userdebug apps not needed for AOSP software  -->
+   <!-- AOSP -->
+   <app-package name="com.example.android.locationattribution" enabled="false"/>
+   <app-package name="com.qti.services.zprovidertest" enabled="false"/>
+   <app-package name="com.qualcomm.qti.cam2test" enabled="false"/>
+   <app-package name="com.qualcomm.qti.dcf.client.service" enabled="false"/>
+   <app-package name="com.qualcomm.qti.dcf.nearbyclient" enabled="false"/>
+   <app-package name="com.qualcomm.qti.dctestapp" enabled="false"/>
+   <app-package name="com.qualcomm.qti.modemtestmode" enabled="false"/>
+   <app-package name="com.qualcomm.qti.optinoverlay" enabled="false"/>
+   <app-package name="com.qualcomm.qti.PresenceApp" enabled="false"/>
+   <app-package name="com.qualcomm.qti.ramdumpcopyui" enabled="false"/>
+   <app-package name="com.qualcomm.qti.sensors.qsensortest" enabled="false"/>
+   <app-package name="com.qualcomm.qti.sva" enabled="false"/>
+   <app-package name="com.quicinc.voice.activation" enabled="false"/>
+   <app-package name="com.quicinc.voiceassistant.reference" enabled="false"/>
+   <app-package name="com.sonyericsson.audiotest" enabled="false"/>
+   <app-package name="com.sonyericsson.debugmenu" enabled="false"/>
+   <app-package name="com.sonyericsson.debugmenu.debugmenuservice" enabled="false"/>
+   <app-package name="com.sonymobile.chargetester" enabled="false"/>
+   <app-package name="com.sonymobile.crashloguploader" enabled="false"/>
+   <app-package name="com.sonymobile.crashmonitor.ui" enabled="false"/>
+   <app-package name="com.sonymobile.logalong" enabled="false"/>
+   <app-package name="com.sonymobile.misctatest" enabled="false"/>
+   <app-package name="com.sonymobile.mmwdidebugtools" enabled="false"/>
+   <app-package name="com.sonymobile.movingdetection" enabled="false"/>
+   <app-package name="com.sonymobile.nfcdebugmenu" enabled="false"/>
+   <app-package name="com.sonymobile.radiomonitor" enabled="false"/>
+   <app-package name="com.sonymobile.simdebug" enabled="false"/>
+   <app-package name="com.sonymobile.telephonydebugtools" enabled="false"/>
+   <app-package name="com.sonymobile.wifi.sniffer" enabled="false"/>
+   <app-package name="com.sonymobile.xperiaservices" enabled="false"/>
+   <app-package name="my.tests.snapdragonsdktest" enabled="false"/>
+</customization>

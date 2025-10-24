@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <feature name="com.sony.android.feature.ONEHAND_HOME_DOUBLE_TAP"/>
+</config>

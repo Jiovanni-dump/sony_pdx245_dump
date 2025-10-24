@@ -1,0 +1,8 @@
+######################## Customized property values #########################
+ro.com.google.acsa=true
+ro.com.google.clientidbase.cr=android-sonymobile
+ro.com.google.clientidbase.ms=android-ee-uk-rvc3
+ro.com.google.clientidbase.vs=android-ee-uk-rvc3
+ro.facebook.partnerid=ee:40f51e3a-56c8-4843-a876-a5017531a136
+ro.product.brand1=orange
+#############################################################################

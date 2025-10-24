@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<!--
+    Copyright 2021 Sony Corporation
+    All rights, including trade secret rights, reserved.
+-->
+<customization id="c001884" >
+    <overlay-package name="com.sonyericsson.setupwizard.overlay.globalc2_tw_hk" />
+    <app-package name="com.android.tidal.campaigninstaller" enabled="false"/>
+    <app-package name="com.activision.callofduty.shooter" enabled="false"/>
+</customization>

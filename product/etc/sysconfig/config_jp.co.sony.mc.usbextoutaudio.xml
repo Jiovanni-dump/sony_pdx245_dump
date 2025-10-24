@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2025 Sony Corporation
+-->
+<config>
+    <hidden-api-whitelisted-app package="jp.co.sony.mc.usbextoutaudio" />
+    <allow-in-power-save package="jp.co.sony.mc.usbextoutaudio" />
+    <asl-file package="jp.co.sony.mc.usbextoutaudio" path="/product/etc/asl/jp.co.sony.mc.usbextoutaudio.data.safety.xml"/>
+</config>
+
